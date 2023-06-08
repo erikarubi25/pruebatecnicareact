@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function TaskForm({ addTask }) {
   const [title, setTitle] = useState('');
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (title.trim() === '') return;
