@@ -5,8 +5,12 @@ module.exports = {
   ],
   darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+      gridAutoColumns: {
+        '2fr': 'minmax(0, 2fr)',
+    },
   },
   variants: {},
   plugins: [],
+}
 }
