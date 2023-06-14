@@ -1,9 +1,10 @@
 module.exports = {
   content: [
-    './pages/**/*.{html,js}',
-    './components/**/*.{html,js}',
+    './components/**/*.{html,jsx}',
+    './pages/**/*.{html,jsx}',
+    './index.html',
   ],
-  darkMode: false,
+  darkMode: 'media',
   theme: {
     extend: {
       gridAutoColumns: {
