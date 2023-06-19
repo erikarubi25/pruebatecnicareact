@@ -17,9 +17,12 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
 .completed {
+
   text-decoration: line-through;
 }
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -37,11 +40,7 @@ body {
   min-height: 20vh;
 }
 
-h1 {
-  font-size: 3em;
-  line-height: 1.1;
-  color: rgb(218, 73, 169);
-}
+
 
 button {
   border-radius: 8px;
@@ -65,7 +64,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #93d2f7;
   }
   a:hover {
     color: #747bff;
