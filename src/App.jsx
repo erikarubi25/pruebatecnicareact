@@ -26,11 +26,11 @@ function App() {
     setTasks(updatedTasks);
   };
   return (
-    <div>
+    <>
       <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Lista de Tareas</h1>
       <TaskForm addTask={addTask} />
       <TaskList tasks={tasks} toggleTask={toggleTask} deleteTask={deleteTask} />
-    </div>
+    </>
   );
 }
 export default App;

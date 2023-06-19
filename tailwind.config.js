@@ -1,7 +1,7 @@
 module.exports = {
   content: [
-    './components/**/*.{html,jsx}',
-    './pages/**/*.{html,jsx}',
+    './components/**/*.{html,js, css, jsx}',
+    './pages/**/*.{html,js, css, jsx}',
     './index.html',
   ],
   darkMode: 'media',
