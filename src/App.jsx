@@ -27,7 +27,7 @@ function App() {
   };
   return (
     <>
-      <h1 className='font-semibold'>Lista de Tareas</h1>
+      <h1 className='pb-6 font-semibold text-center'>Lista de Tareas</h1>
       <TaskForm addTask={addTask} />
       <TaskList tasks={tasks} toggleTask={toggleTask} deleteTask={deleteTask} />
     </>

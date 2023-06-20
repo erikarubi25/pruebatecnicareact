@@ -6,9 +6,9 @@ function TaskList({ tasks, toggleTask, deleteTask }) {
     <table className="w-full">
       <thead>
         <tr>
-          <th className='text-4xl text-green-400'>Check</th>
-          <th className='text-3xl'>Tarea</th>
-          <th className='text-3xl'>Acción</th>
+          <th className='pt-8 text-3xl text-pink-500'>Check</th>
+          <th className='pt-8 text-3xl text-pink-600'>Tarea</th>
+          <th className='pt-8 text-3xl text-pink-700'>Acción</th>
         </tr>
       </thead>
       <tbody>
