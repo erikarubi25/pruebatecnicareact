@@ -26,7 +26,6 @@ function TaskForm({ addTask }) {
 
         <button
           type="submit"
-          className="bg-green-500 hover:bg-green-700 text-white font-bold rounded p-1"
         >
           Agregar
         </button>
